@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutVerNo" xml:space="preserve">
+    <value>版本 {0}</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>关于 {0}</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>文件处理已取消。</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>文件处理已完成。</value>
+  </data>
+  <data name="KeywordsRequired" xml:space="preserve">
+    <value>请指定关键词。</value>
+  </data>
+  <data name="NoImageFiles" xml:space="preserve">
+    <value>文件夹中未找到图像文件。</value>
+  </data>
+  <data name="Result0Total" xml:space="preserve">
+    <value>文件夹中的图像文件数量：{0}</value>
+  </data>
+  <data name="Result1Verified" xml:space="preserve">
+    <value>已验证：{0}</value>
+  </data>
+  <data name="Result1Moved" xml:space="preserve">
+    <value>已移动：{0}</value>
+  </data>
+  <data name="Result1Deleted" xml:space="preserve">
+    <value>已删除：{0}</value>
+  </data>
+  <data name="Result2Kept" xml:space="preserve">
+    <value>已保留：{0}</value>
+  </data>
+  <data name="Result3Error" xml:space="preserve">
+    <value>错误：{0}</value>
+  </data>
+  <data name="Result4Time" xml:space="preserve">
+    <value>总处理时间（秒）：{0}</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>意外错误：{0}</value>
+  </data>
+  <data name="IniErrorTitle" xml:space="preserve">
+    <value>配置文件错误</value>
+  </data>
+  <data name="IniErrorMsg" xml:space="preserve">
+    <value>加载 ocr_params.ini 时发生以下错误。将使用默认设置。</value>
+  </data>
+  <data name="FolderNotExistsImg" xml:space="preserve">
+    <value>文件夹不存在。请先指定图像文件的文件夹路径。</value>
+  </data>
+  <data name="FolderNotExistsDst" xml:space="preserve">
+    <value>文件夹不存在。请先指定目标文件夹路径。</value>
+  </data>
+  <data name="ArrowUp" xml:space="preserve">
+    <value>↑</value>
+  </data>
+  <data name="ArrowDn" xml:space="preserve">
+    <value>↓</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>或</value>
+  </data>
+  <data name="BothFoldersAreSame" xml:space="preserve">
+    <value>图像文件夹和目标文件夹不能相同。</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>正在处理：{0} / {1}</value>
+  </data>
+</root>

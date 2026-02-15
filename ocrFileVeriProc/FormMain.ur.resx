@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="progressBar1.RightToLeft" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="progressBar1.RightToLeftLayout" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+
+  <data name="lblKeywords.Text" xml:space="preserve">
+    <value>کلیدی الفاظ</value>
+  </data>
+  <data name="btnAnd.Text" xml:space="preserve">
+    <value>→ اور ←</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>منسوخ کریں</value>
+  </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>پروسیسنگ شروع کریں (&amp;S)</value>
+  </data>
+  <data name="btnOpenImg.Text" xml:space="preserve">
+    <value>تصویری فولڈر کھولیں (&amp;I)</value>
+  </data>
+  <data name="btnOpenDst.Text" xml:space="preserve">
+    <value>منزل فولڈر کھولیں</value>
+  </data>
+  <data name="lblProcMode.Text" xml:space="preserve">
+    <value>پروسیسنگ موڈ</value>
+  </data>
+  <data name="cmbProcMode.Items" xml:space="preserve">
+    <value>کلیدی الفاظ والے فائلوں کی تصدیق (محفوظ کریں)</value>
+  </data>
+  <data name="cmbProcMode.Items1" xml:space="preserve">
+    <value>کلیدی الفاظ والے فائلوں کو منتقل کریں</value>
+  </data>
+  <data name="cmbProcMode.Items2" xml:space="preserve">
+    <value>کلیدی الفاظ والے فائلوں کو حذف کریں</value>
+  </data>
+  <data name="cmbProcMode.Items3" xml:space="preserve">
+    <value>بغیر کلیدی الفاظ والی فائلوں کی تصدیق (محفوظ کریں)</value>
+  </data>
+  <data name="cmbProcMode.Items4" xml:space="preserve">
+    <value>بغیر کلیدی الفاظ والی فائلوں کو منتقل کریں</value>
+  </data>
+  <data name="cmbProcMode.Items5" xml:space="preserve">
+    <value>بغیر کلیدی الفاظ والی فائلوں کو حذف کریں</value>
+  </data>
+  <data name="lblFolderPathImg.Text" xml:space="preserve">
+    <value>تصویری فائلوں کے فولڈر کا راستہ</value>
+  </data>
+  <data name="lblFolderPathDst.Text" xml:space="preserve">
+    <value>منزل فولڈر کا راستہ</value>
+  </data>
+  <data name="btnBrowseImg.Text" xml:space="preserve">
+    <value>براؤز کریں (&amp;B)...</value>
+  </data>
+  <data name="btnBrowseDst.Text" xml:space="preserve">
+    <value>براؤز کریں...</value>
+  </data>
+  <data name="lblLang.Text" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="lblResults.Text" xml:space="preserve">
+    <value>نتائج</value>
+  </data>
+  <data name="cmbBoxLang.Items" xml:space="preserve">
+    <value>سسٹم سیٹنگ</value>
+  </data>
+  <data name="btnAbout.Text" xml:space="preserve">
+    <value>تفصیلات (&amp;A)...</value>
+  </data>
+  <data name="linkLabelDoc.Text" xml:space="preserve">
+    <value>دستاویزات</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OCR فائل کی تصدیق اور پروسیسنگ کا آلہ</value>
+  </data>
+</root>

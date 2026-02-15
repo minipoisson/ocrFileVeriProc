@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\OpenCvSharp4.runtime.win.4.11.0.20250507\build\net48\OpenCvSharp4.runtime.win.props" Condition="Exists('..\packages\OpenCvSharp4.runtime.win.4.11.0.20250507\build\net48\OpenCvSharp4.runtime.win.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7A84440-5DF0-48E3-B55B-3A7FC992B11A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ocrFileVeriProc</RootNamespace>
+    <AssemblyName>ocrFileVeriProc</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>OCR256-64-48-32-16trans.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OpenCvSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp4.4.11.0.20250507\lib\net48\OpenCvSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp4.Extensions.4.11.0.20250507\lib\net48\OpenCvSharp.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.WpfExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCvSharp4.WpfExtensions.4.11.0.20250507\lib\net48\OpenCvSharp.WpfExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Patagames.Ocr, Version=4.6.2.48, Culture=neutral, PublicKeyToken=be14d8e1fe46e570, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tesseract.Net.SDK.4.6.411\lib\net48\Patagames.Ocr.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.6.1\lib\net462\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.9.0.9\lib\net462\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.6.3\lib\net462\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.6.1\lib\net462\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tesseract, Version=5.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tesseract.5.2.0\lib\net48\Tesseract.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="OcrParams.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="UILangs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UILangs.resx</DependentUpon>
+    </Compile>
+    <Content Include="documents\License.txt" />
+    <Content Include="OCR256-64-48-32-16trans.ico" />
+    <Content Include="Resources\OCR256-64-48-32-16trans.ico" />
+    <EmbeddedResource Include="AboutBox1.ar.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.bn.resx" />
+    <EmbeddedResource Include="AboutBox1.de.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.en.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.es.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.fa.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.fr.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.hi.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.id.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.it.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.jv.resx" />
+    <EmbeddedResource Include="AboutBox1.ko.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.mr.resx" />
+    <EmbeddedResource Include="AboutBox1.ms.resx" />
+    <EmbeddedResource Include="AboutBox1.pa.resx" />
+    <EmbeddedResource Include="AboutBox1.pcm.resx" />
+    <EmbeddedResource Include="AboutBox1.pt.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.ru.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.sw.resx" />
+    <EmbeddedResource Include="AboutBox1.ta.resx" />
+    <EmbeddedResource Include="AboutBox1.te.resx" />
+    <EmbeddedResource Include="AboutBox1.th.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.tr.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.uk.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.ur.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.vi.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.zh-Hans.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.zh-Hant.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.bn.resx" />
+    <EmbeddedResource Include="FormMain.en.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.fa.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.it.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.jv.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.mr.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.pa.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.pcm.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.sw.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.ta.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.te.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.ur.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages.ar.resx" />
+    <EmbeddedResource Include="Messages.bn.resx" />
+    <EmbeddedResource Include="Messages.de.resx" />
+    <EmbeddedResource Include="Messages.en.resx" />
+    <EmbeddedResource Include="Messages.es.resx" />
+    <EmbeddedResource Include="Messages.fa.resx" />
+    <EmbeddedResource Include="Messages.fr.resx" />
+    <EmbeddedResource Include="Messages.hi.resx" />
+    <EmbeddedResource Include="Messages.id.resx" />
+    <EmbeddedResource Include="Messages.it.resx" />
+    <EmbeddedResource Include="Messages.jv.resx" />
+    <EmbeddedResource Include="Messages.ko.resx" />
+    <EmbeddedResource Include="Messages.mr.resx" />
+    <EmbeddedResource Include="Messages.ms.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages.pa.resx" />
+    <EmbeddedResource Include="Messages.pcm.resx" />
+    <EmbeddedResource Include="Messages.pt.resx" />
+    <EmbeddedResource Include="Messages.ru.resx" />
+    <EmbeddedResource Include="Messages.sw.resx" />
+    <EmbeddedResource Include="Messages.ta.resx" />
+    <EmbeddedResource Include="Messages.te.resx" />
+    <EmbeddedResource Include="Messages.th.resx" />
+    <EmbeddedResource Include="Messages.tr.resx" />
+    <EmbeddedResource Include="Messages.uk.resx" />
+    <EmbeddedResource Include="Messages.ur.resx" />
+    <EmbeddedResource Include="Messages.vi.resx" />
+    <EmbeddedResource Include="Messages.zh-Hans.resx" />
+    <EmbeddedResource Include="Messages.zh-Hant.resx" />
+    <EmbeddedResource Include="UILangs.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UILangs.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="documents\Specification.ja.docx" />
+    <EmbeddedResource Include="AboutBox1.ja.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.ar.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.de.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.es.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.fr.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.hi.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.id.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.ja.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.ko.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.pt.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.ru.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.th.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.tr.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.uk.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.vi.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.zh-Hans.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.zh-Hant.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages.ja.resx" />
+    <EmbeddedResource Include="Messages.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Content Include="documents\HowToUse.ja.txt" />
+    <Content Include="documents\HowToUse.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="documents\tessdata_list.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="documents\License.ja.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icon_all.ico" />
+    <Content Include="ocr_params.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="documents\Specification.docx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="tessdata\afr.traineddata" />
+    <None Include="tessdata\amh.traineddata" />
+    <None Include="tessdata\ara.traineddata" />
+    <None Include="tessdata\asm.traineddata" />
+    <None Include="tessdata\aze.traineddata" />
+    <None Include="tessdata\aze_cyrl.traineddata" />
+    <None Include="tessdata\bel.traineddata" />
+    <None Include="tessdata\ben.traineddata" />
+    <None Include="tessdata\bod.traineddata" />
+    <None Include="tessdata\bos.traineddata" />
+    <None Include="tessdata\bre.traineddata" />
+    <None Include="tessdata\bul.traineddata" />
+    <None Include="tessdata\cat.traineddata" />
+    <None Include="tessdata\ceb.traineddata" />
+    <None Include="tessdata\ces.traineddata" />
+    <None Include="tessdata\chi_sim.traineddata" />
+    <None Include="tessdata\chi_sim_vert.traineddata" />
+    <None Include="tessdata\chi_tra.traineddata" />
+    <None Include="tessdata\chi_tra_vert.traineddata" />
+    <None Include="tessdata\chr.traineddata" />
+    <None Include="tessdata\configs\config.cfg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="tessdata\cos.traineddata" />
+    <None Include="tessdata\cym.traineddata" />
+    <None Include="tessdata\dan.traineddata" />
+    <None Include="tessdata\dan_frak.traineddata" />
+    <None Include="tessdata\deu.traineddata" />
+    <None Include="tessdata\deu_frak.traineddata" />
+    <None Include="tessdata\div.traineddata" />
+    <None Include="tessdata\dzo.traineddata" />
+    <None Include="tessdata\ell.traineddata" />
+    <None Include="tessdata\eng.traineddata">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="tessdata\enm.traineddata" />
+    <None Include="tessdata\epo.traineddata" />
+    <None Include="tessdata\equ.traineddata">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="tessdata\est.traineddata" />
+    <None Include="tessdata\eus.traineddata" />
+    <None Include="tessdata\fao.traineddata" />
+    <None Include="tessdata\fas.traineddata" />
+    <None Include="tessdata\fil.traineddata" />
+    <None Include="tessdata\fin.traineddata" />
+    <None Include="tessdata\fra.traineddata" />
+    <None Include="tessdata\frk.traineddata" />
+    <None Include="tessdata\frm.traineddata" />
+    <None Include="tessdata\fry.traineddata" />
+    <None Include="tessdata\gla.traineddata" />
+    <None Include="tessdata\gle.traineddata" />
+    <None Include="tessdata\glg.traineddata" />
+    <None Include="tessdata\grc.traineddata" />
+    <None Include="tessdata\guj.traineddata" />
+    <None Include="tessdata\hat.traineddata" />
+    <None Include="tessdata\heb.traineddata" />
+    <None Include="tessdata\hin.traineddata" />
+    <None Include="tessdata\hrv.traineddata" />
+    <None Include="tessdata\hun.traineddata" />
+    <None Include="tessdata\hye.traineddata" />
+    <None Include="tessdata\iku.traineddata" />
+    <None Include="tessdata\ind.traineddata" />
+    <None Include="tessdata\isl.traineddata" />
+    <None Include="tessdata\ita.traineddata" />
+    <None Include="tessdata\ita_old.traineddata" />
+    <None Include="tessdata\jav.traineddata" />
+    <None Include="tessdata\jpn.traineddata">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="tessdata\jpn_vert.traineddata" />
+    <None Include="tessdata\kan.traineddata" />
+    <None Include="tessdata\kat.traineddata" />
+    <None Include="tessdata\kat_old.traineddata" />
+    <None Include="tessdata\kaz.traineddata" />
+    <None Include="tessdata\khm.traineddata" />
+    <None Include="tessdata\kir.traineddata" />
+    <None Include="tessdata\kmr.traineddata" />
+    <None Include="tessdata\kor.traineddata" />
+    <None Include="tessdata\kor_vert.traineddata" />
+    <None Include="tessdata\lao.traineddata" />
+    <None Include="tessdata\lat.traineddata" />
+    <None Include="tessdata\lav.traineddata" />
+    <None Include="tessdata\LICENSE" />
+    <None Include="tessdata\lit.traineddata" />
+    <None Include="tessdata\ltz.traineddata" />
+    <None Include="tessdata\mal.traineddata" />
+    <None Include="tessdata\mar.traineddata" />
+    <None Include="tessdata\mkd.traineddata" />
+    <None Include="tessdata\mlt.traineddata" />
+    <None Include="tessdata\mon.traineddata" />
+    <None Include="tessdata\mri.traineddata" />
+    <None Include="tessdata\msa.traineddata" />
+    <None Include="tessdata\mya.traineddata" />
+    <None Include="tessdata\nep.traineddata" />
+    <None Include="tessdata\nld.traineddata" />
+    <None Include="tessdata\nor.traineddata" />
+    <None Include="tessdata\oci.traineddata" />
+    <None Include="tessdata\ori.traineddata" />
+    <None Include="tessdata\osd.traineddata">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="tessdata\pan.traineddata" />
+    <None Include="tessdata\pdf.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="tessdata\pol.traineddata" />
+    <None Include="tessdata\por.traineddata" />
+    <None Include="tessdata\pus.traineddata" />
+    <None Include="tessdata\que.traineddata" />
+    <None Include="tessdata\README.md" />
+    <None Include="tessdata\ron.traineddata" />
+    <None Include="tessdata\rus.traineddata" />
+    <None Include="tessdata\san.traineddata" />
+    <None Include="tessdata\sin.traineddata" />
+    <None Include="tessdata\slk.traineddata" />
+    <None Include="tessdata\slk_frak.traineddata" />
+    <None Include="tessdata\slv.traineddata" />
+    <None Include="tessdata\snd.traineddata" />
+    <None Include="tessdata\spa.traineddata" />
+    <None Include="tessdata\spa_old.traineddata" />
+    <None Include="tessdata\sqi.traineddata" />
+    <None Include="tessdata\srp.traineddata" />
+    <None Include="tessdata\srp_latn.traineddata" />
+    <None Include="tessdata\sun.traineddata" />
+    <None Include="tessdata\swa.traineddata" />
+    <None Include="tessdata\swe.traineddata" />
+    <None Include="tessdata\syr.traineddata" />
+    <None Include="tessdata\tam.traineddata" />
+    <None Include="tessdata\tat.traineddata" />
+    <None Include="tessdata\tel.traineddata" />
+    <None Include="tessdata\tgk.traineddata" />
+    <None Include="tessdata\tgl.traineddata" />
+    <None Include="tessdata\tha.traineddata" />
+    <None Include="tessdata\tir.traineddata" />
+    <None Include="tessdata\ton.traineddata" />
+    <None Include="tessdata\tur.traineddata" />
+    <None Include="tessdata\uig.traineddata" />
+    <None Include="tessdata\ukr.traineddata" />
+    <None Include="tessdata\urd.traineddata" />
+    <None Include="tessdata\uzb.traineddata" />
+    <None Include="tessdata\uzb_cyrl.traineddata" />
+    <None Include="tessdata\vie.traineddata" />
+    <None Include="tessdata\yid.traineddata" />
+    <None Include="tessdata\yor.traineddata" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 および x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets" Condition="Exists('..\packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>このプロジェクトは、このコンピューター上にない NuGet パッケージを参照しています。それらのパッケージをダウンロードするには、[NuGet パッケージの復元] を使用します。詳細については、http://go.microsoft.com/fwlink/?LinkID=322105 を参照してください。見つからないファイルは {0} です。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets'))" />
+    <Error Condition="!Exists('..\packages\OpenCvSharp4.runtime.win.4.11.0.20250507\build\net48\OpenCvSharp4.runtime.win.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\OpenCvSharp4.runtime.win.4.11.0.20250507\build\net48\OpenCvSharp4.runtime.win.props'))" />
+    <Error Condition="!Exists('..\packages\Tesseract.5.2.0\build\Tesseract.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Tesseract.5.2.0\build\Tesseract.targets'))" />
+    <Error Condition="!Exists('..\packages\Tesseract.Net.SDK.4.6.411\build\Tesseract.Net.SDK.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Tesseract.Net.SDK.4.6.411\build\Tesseract.Net.SDK.targets'))" />
+  </Target>
+  <Import Project="..\packages\Tesseract.5.2.0\build\Tesseract.targets" Condition="Exists('..\packages\Tesseract.5.2.0\build\Tesseract.targets')" />
+  <Import Project="..\packages\Tesseract.Net.SDK.4.6.411\build\Tesseract.Net.SDK.targets" Condition="Exists('..\packages\Tesseract.Net.SDK.4.6.411\build\Tesseract.Net.SDK.targets')" />
+</Project>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutVerNo" xml:space="preserve">
+    <value>ਸੰਸਕਰਣ {0}</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>{0} ਬਾਰੇ</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>ਫਾਈਲਾਂ ਦੀ ਪ੍ਰਕਿਰਿਆ ਰੱਦ ਕਰ ਦਿੱਤੀ ਗਈ ਹੈ।</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>ਗਲਤੀ</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>ਫਾਈਲਾਂ ਦੀ ਪ੍ਰਕਿਰਿਆ ਪੂਰੀ ਹੋ ਗਈ ਹੈ।</value>
+  </data>
+  <data name="KeywordsRequired" xml:space="preserve">
+    <value>ਕਿਰਪਾ ਕਰਕੇ ਕੁੰਜੀ ਸ਼ਬਦ ਦਰਜ ਕਰੋ।</value>
+  </data>
+  <data name="NoImageFiles" xml:space="preserve">
+    <value>ਫੋਲਡਰ ਵਿੱਚ ਕੋਈ ਚਿੱਤਰ ਫਾਈਲ ਨਹੀਂ ਮਿਲੀ।</value>
+  </data>
+  <data name="Result0Total" xml:space="preserve">
+    <value>ਫੋਲਡਰ ਵਿੱਚ ਚਿੱਤਰ ਫਾਈਲਾਂ ਦੀ ਗਿਣਤੀ: {0}</value>
+  </data>
+  <data name="Result1Verified" xml:space="preserve">
+    <value>ਤਸਦੀਕ ਕੀਤੀ: {0}</value>
+  </data>
+  <data name="Result1Moved" xml:space="preserve">
+    <value>ਤਬਦੀਲ ਕੀਤੀ: {0}</value>
+  </data>
+  <data name="Result1Deleted" xml:space="preserve">
+    <value>ਹਟਾਈ ਗਈ: {0}</value>
+  </data>
+  <data name="Result2Kept" xml:space="preserve">
+    <value>ਰੱਖੀ ਗਈ: {0}</value>
+  </data>
+  <data name="Result3Error" xml:space="preserve">
+    <value>ਗਲਤੀ: {0}</value>
+  </data>
+  <data name="Result4Time" xml:space="preserve">
+    <value>ਕੁੱਲ ਪ੍ਰਕਿਰਿਆ ਸਮਾਂ (ਸਕਿੰਟ): {0}</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>ਅਣਉਮੀਦ ਗਲਤੀ: {0}</value>
+  </data>
+  <data name="IniErrorTitle" xml:space="preserve">
+    <value>ਸੈਟਿੰਗ ਫਾਈਲ ਗਲਤੀ</value>
+  </data>
+  <data name="IniErrorMsg" xml:space="preserve">
+    <value>ocr_params.ini ਨੂੰ ਲੋਡ ਕਰਦੇ ਸਮੇਂ ਹੇਠ ਲਿਖੀਆਂ ਗਲਤੀਆਂ ਆਈਆਂ। ਡਿਫਾਲਟ ਸੈਟਿੰਗ ਲਾਗੂ ਕੀਤੀ ਜਾਵੇਗੀ।</value>
+  </data>
+  <data name="FolderNotExistsImg" xml:space="preserve">
+    <value>ਫੋਲਡਰ ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਚਿੱਤਰ ਫਾਈਲਾਂ ਲਈ ਫੋਲਡਰ ਪਥ ਦਰਜ ਕਰੋ।</value>
+  </data>
+  <data name="FolderNotExistsDst" xml:space="preserve">
+    <value>ਫੋਲਡਰ ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਤਬਦੀਲੀ ਵਾਲੇ ਫੋਲਡਰ ਦਾ ਪਥ ਦਰਜ ਕਰੋ।</value>
+  </data>
+  <data name="ArrowUp" xml:space="preserve">
+    <value>↑</value>
+  </data>
+  <data name="ArrowDn" xml:space="preserve">
+    <value>↓</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>ਜਾਂ</value>
+  </data>
+  <data name="BothFoldersAreSame" xml:space="preserve">
+    <value>ਚਿੱਤਰ ਫੋਲਡਰ ਅਤੇ ਤਬਦੀਲੀ ਵਾਲਾ ਫੋਲਡਰ ਇੱਕੋ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ।</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>ਪ੍ਰਕਿਰਿਆ ਜਾਰੀ ਹੈ: {0} / {1}</value>
+  </data>
+</root>

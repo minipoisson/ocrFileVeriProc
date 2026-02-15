@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="progressBar1.RightToLeft" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="progressBar1.RightToLeftLayout" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblKeywords.Text" xml:space="preserve">
+    <value>الكلمات المفتاحية</value>
+  </data>
+  <data name="btnAnd.Text" xml:space="preserve">
+    <value>→ و ←</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>بدء المعالجة (&amp;S)</value>
+  </data>
+  <data name="btnOpenImg.Text" xml:space="preserve">
+    <value>فتح مجلد الصور (&amp;I)</value>
+  </data>
+  <data name="btnOpenDst.Text" xml:space="preserve">
+    <value>فتح مجلد الوجهة</value>
+  </data>
+  <data name="lblProcMode.Text" xml:space="preserve">
+    <value>وضع المعالجة</value>
+  </data>
+  <data name="cmbProcMode.Items" xml:space="preserve">
+    <value>التحقق (الاحتفاظ) بالملفات التي تحتوي على كلمات مفتاحية</value>
+  </data>
+  <data name="cmbProcMode.Items1" xml:space="preserve">
+    <value>نقل الملفات التي تحتوي على كلمات مفتاحية</value>
+  </data>
+  <data name="cmbProcMode.Items2" xml:space="preserve">
+    <value>حذف الملفات التي تحتوي على كلمات مفتاحية</value>
+  </data>
+  <data name="cmbProcMode.Items3" xml:space="preserve">
+    <value>التحقق (الاحتفاظ) بالملفات التي لا تحتوي على كلمات مفتاحية</value>
+  </data>
+  <data name="cmbProcMode.Items4" xml:space="preserve">
+    <value>نقل الملفات التي لا تحتوي على كلمات مفتاحية</value>
+  </data>
+  <data name="cmbProcMode.Items5" xml:space="preserve">
+    <value>حذف الملفات التي لا تحتوي على كلمات مفتاحية</value>
+  </data>
+  <data name="lblFolderPathImg.Text" xml:space="preserve">
+    <value>مسار مجلد ملفات الصور</value>
+  </data>
+  <data name="lblFolderPathDst.Text" xml:space="preserve">
+    <value>مسار مجلد الوجهة</value>
+  </data>
+  <data name="btnBrowseImg.Text" xml:space="preserve">
+    <value>استعراض (&amp;B)...</value>
+  </data>
+  <data name="btnBrowseDst.Text" xml:space="preserve">
+    <value>استعراض...</value>
+  </data>
+  <data name="lblLang.Text" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="lblResults.Text" xml:space="preserve">
+    <value>النتائج</value>
+  </data>
+  <data name="cmbBoxLang.Items" xml:space="preserve">
+    <value>إعدادات النظام</value>
+  </data>
+  <data name="btnAbout.Text" xml:space="preserve">
+    <value>حول البرنامج (&amp;A)...</value>
+  </data>
+  <data name="linkLabelDoc.Text" xml:space="preserve">
+    <value>المستندات</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>أداة التحقق ومعالجة ملفات OCR</value>
+  </data>
+</root>
