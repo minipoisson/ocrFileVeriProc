@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutVerNo" xml:space="preserve">
+    <value>versão {0}</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>Sobre {0}</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Processamento de arquivos cancelado.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Processamento de arquivos concluído.</value>
+  </data>
+  <data name="KeywordsRequired" xml:space="preserve">
+    <value>Especifique palavras-chave.</value>
+  </data>
+  <data name="NoImageFiles" xml:space="preserve">
+    <value>Nenhum arquivo de imagem encontrado na pasta.</value>
+  </data>
+  <data name="Result0Total" xml:space="preserve">
+    <value>Número de arquivos de imagem na pasta: {0}</value>
+  </data>
+  <data name="Result1Verified" xml:space="preserve">
+    <value>Verificados: {0}</value>
+  </data>
+  <data name="Result1Moved" xml:space="preserve">
+    <value>Movidos: {0}</value>
+  </data>
+  <data name="Result1Deleted" xml:space="preserve">
+    <value>Excluídos: {0}</value>
+  </data>
+  <data name="Result2Kept" xml:space="preserve">
+    <value>Mantidos: {0}</value>
+  </data>
+  <data name="Result3Error" xml:space="preserve">
+    <value>Erro: {0}</value>
+  </data>
+  <data name="Result4Time" xml:space="preserve">
+    <value>Tempo total de processamento (segundos): {0}</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Erro inesperado: {0}</value>
+  </data>
+  <data name="IniErrorTitle" xml:space="preserve">
+    <value>Erro no arquivo de configuração</value>
+  </data>
+  <data name="IniErrorMsg" xml:space="preserve">
+    <value>Ocorreram os seguintes erros ao carregar o arquivo ocr_params.ini. As configurações padrão serão aplicadas.</value>
+  </data>
+  <data name="FolderNotExistsImg" xml:space="preserve">
+    <value>A pasta não existe. Especifique primeiro o caminho da pasta de imagens.</value>
+  </data>
+  <data name="FolderNotExistsDst" xml:space="preserve">
+    <value>A pasta não existe. Especifique primeiro o caminho da pasta de destino.</value>
+  </data>
+  <data name="ArrowUp" xml:space="preserve">
+    <value>↑</value>
+  </data>
+  <data name="ArrowDn" xml:space="preserve">
+    <value>↓</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>OU</value>
+  </data>
+  <data name="BothFoldersAreSame" xml:space="preserve">
+    <value>A pasta de imagens e a pasta de destino não devem ser iguais.</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Processando: {0} / {1}</value>
+  </data>
+</root>

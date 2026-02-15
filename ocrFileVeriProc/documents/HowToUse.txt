@@ -1,0 +1,43 @@
+Application Overview
+OCR File Verificator & Deleter is a desktop application designed for efficient document management. It automates the process of verifying and deleting scanned image files in a designated folder. By using OCR (Optical Character Recognition), the application identifies documents that contain specific keywords, such as ID numbers or names. This tool is optimized for high-speed batch processing and helps streamline your document workflow by automatically removing files that have been correctly identified.
+
+
+How to Use
+1. Enter Keywords: In the keyword box, enter identifiers such as ID numbers or names you want to search for. Enter one set of keywords per line. The application will delete a file only if all keywords on a single line are found within the document's text.
+
+2. Start Processing: Click the "start processing" button to begin the OCR and file deletion process. A progress bar will show the current status. When the process is complete or canceled, a dialog box will appear to notify you.
+
+3. Cancel: To stop the process at any time, click the "CANCEL" button.
+
+4. Open Folder: Click the "open folder" button to quickly open the currently selected folder in Windows Explorer.
+
+5. Review Results: After the process is complete, the files that were not processed will remain in the folder. A log file named ImageProcessLog.txt will also be generated, detailing which files were processed, their duration, and the final result ("Deleted," "Kept," or "ERROR").
+
+
+How to Configure
+The application's settings and options can be adjusted in two ways: through the user interface and by editing the configuration file.
+
+
+1. User Interface Settings
+These settings are saved automatically when the application closes and will be applied the next time you open the app.
+
+- Folder Path: The application remembers the last folder you selected. You only need to change this if you are processing files from a different location.
+- Language Selection: Use the language drop-down menu to change the application's display language.
+- Debug Mode: Check the "debug" box to enable debug mode. When this mode is active, the application will save intermediate images and OCR text files to a debug subfolder within the processed directory. This is useful for troubleshooting OCR issues and for fine-tuning the ocr_params.ini file.
+- About: Click the "about" button to display information about the application, including its version number, copyright, and developer details.
+
+
+2. Configuration File (ocr_params.ini)
+For advanced OCR and system-level settings, edit the ocr_params.ini file located in the application's startup directory.
+
+[OCR] Section
+- Languages: Specifies the OCR language. Example: eng+jpn for both English and Japanese, eng for English, jpn for Japanese.
+- UserDefinedDpi: Sets the DPI for OCR processing. Recommended value: 300.
+- PageSegMode: Determines how Tesseract segments the page. You can set it to Auto for automatic mode or SingleBlock for specific layouts.
+
+[System] Section
+- MaxDegreeOfParallelism: Controls the number of threads for OCR processing. Recommended value: 4 to 8.
+- OpenMpThreads: Specifies the number of OpenMP threads for Tesseract. It's recommended to use the same value as MaxDegreeOfParallelism.
+- SkewSkipThresholdDeg: The minimum angle of skew to apply deskewing. Recommended value: 0.2.
+- MadThresholdDeg: The threshold for Median Absolute Deviation (MAD) to switch to projection profile for deskewing. Recommended value: 0.8.
+- For more information, please refer to the comments and examples within the ocr_params.ini file.

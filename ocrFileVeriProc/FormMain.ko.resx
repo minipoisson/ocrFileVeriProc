@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+  <data name="lblKeywords.Text" xml:space="preserve">
+    <value>키워드</value>
+  </data>
+  <data name="btnAnd.Text" xml:space="preserve">
+    <value>← 그리고 →</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>처리 시작 (&amp;S)</value>
+  </data>
+  <data name="btnOpenImg.Text" xml:space="preserve">
+    <value>이미지 폴더 열기 (&amp;I)</value>
+  </data>
+  <data name="btnOpenDst.Text" xml:space="preserve">
+    <value>대상 폴더 열기</value>
+  </data>
+  <data name="lblProcMode.Text" xml:space="preserve">
+    <value>처리 모드</value>
+  </data>
+  <data name="cmbProcMode.Items" xml:space="preserve">
+    <value>키워드를 포함한 파일 확인 (유지)</value>
+  </data>
+  <data name="cmbProcMode.Items1" xml:space="preserve">
+    <value>키워드를 포함한 파일 이동</value>
+  </data>
+  <data name="cmbProcMode.Items2" xml:space="preserve">
+    <value>키워드를 포함한 파일 삭제</value>
+  </data>
+  <data name="cmbProcMode.Items3" xml:space="preserve">
+    <value>키워드를 포함하지 않은 파일 확인 (유지)</value>
+  </data>
+  <data name="cmbProcMode.Items4" xml:space="preserve">
+    <value>키워드를 포함하지 않은 파일 이동</value>
+  </data>
+  <data name="cmbProcMode.Items5" xml:space="preserve">
+    <value>키워드를 포함하지 않은 파일 삭제</value>
+  </data>
+  <data name="lblFolderPathImg.Text" xml:space="preserve">
+    <value>이미지 파일 폴더 경로</value>
+  </data>
+  <data name="lblFolderPathDst.Text" xml:space="preserve">
+    <value>대상 폴더 경로</value>
+  </data>
+  <data name="btnBrowseImg.Text" xml:space="preserve">
+    <value>찾아보기 (&amp;B)...</value>
+  </data>
+  <data name="btnBrowseDst.Text" xml:space="preserve">
+    <value>찾아보기...</value>
+  </data>
+  <data name="lblLang.Text" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="lblResults.Text" xml:space="preserve">
+    <value>결과</value>
+  </data>
+  <data name="cmbBoxLang.Items" xml:space="preserve">
+    <value>시스템 설정</value>
+  </data>
+  <data name="btnAbout.Text" xml:space="preserve">
+    <value>정보 (&amp;A)...</value>
+  </data>
+  <data name="linkLabelDoc.Text" xml:space="preserve">
+    <value>문서</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OCR 파일 확인 및 처리 도구</value>
+  </data>
+</root>

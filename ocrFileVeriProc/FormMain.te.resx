@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+  <data name="lblKeywords.Text" xml:space="preserve">
+    <value>కీవర్డ్‌లు</value>
+  </data>
+  <data name="btnAnd.Text" xml:space="preserve">
+    <value>← మరియు →</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>రద్దు చేయండి</value>
+  </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>ప్రాసెసింగ్ ప్రారంభించండి (&amp;S)</value>
+  </data>
+  <data name="btnOpenImg.Text" xml:space="preserve">
+    <value>చిత్ర ఫోల్డర్ తెరవండి (&amp;I)</value>
+  </data>
+  <data name="btnOpenDst.Text" xml:space="preserve">
+    <value>లక్ష్య ఫోల్డర్ తెరవండి</value>
+  </data>
+  <data name="lblProcMode.Text" xml:space="preserve">
+    <value>ప్రాసెసింగ్ మోడ్</value>
+  </data>
+  <data name="cmbProcMode.Items" xml:space="preserve">
+    <value>కీవర్డ్‌లతో ఉన్న ఫైళ్లను ధృవీకరించండి (ఉంచండి)</value>
+  </data>
+  <data name="cmbProcMode.Items1" xml:space="preserve">
+    <value>కీవర్డ్‌లతో ఉన్న ఫైళ్లను తరలించండి</value>
+  </data>
+  <data name="cmbProcMode.Items2" xml:space="preserve">
+    <value>కీవర్డ్‌లతో ఉన్న ఫైళ్లను తొలగించండి</value>
+  </data>
+  <data name="cmbProcMode.Items3" xml:space="preserve">
+    <value>కీవర్డ్‌లు లేని ఫైళ్లను ధృవీకరించండి (ఉంచండి)</value>
+  </data>
+  <data name="cmbProcMode.Items4" xml:space="preserve">
+    <value>కీవర్డ్‌లు లేని ఫైళ్లను తరలించండి</value>
+  </data>
+  <data name="cmbProcMode.Items5" xml:space="preserve">
+    <value>కీవర్డ్‌లు లేని ఫైళ్లను తొలగించండి</value>
+  </data>
+  <data name="lblFolderPathImg.Text" xml:space="preserve">
+    <value>చిత్ర ఫైళ్ల ఫోల్డర్ మార్గం</value>
+  </data>
+  <data name="lblFolderPathDst.Text" xml:space="preserve">
+    <value>లక్ష్య ఫోల్డర్ మార్గం</value>
+  </data>
+  <data name="btnBrowseImg.Text" xml:space="preserve">
+    <value>బ్రౌజ్ చేయండి (&amp;B)...</value>
+  </data>
+  <data name="btnBrowseDst.Text" xml:space="preserve">
+    <value>బ్రౌజ్ చేయండి...</value>
+  </data>
+  <data name="lblLang.Text" xml:space="preserve">
+    <value>భాష</value>
+  </data>
+  <data name="lblResults.Text" xml:space="preserve">
+    <value>ఫలితాలు</value>
+  </data>
+  <data name="cmbBoxLang.Items" xml:space="preserve">
+    <value>సిస్టమ్ సెట్టింగ్</value>
+  </data>
+  <data name="btnAbout.Text" xml:space="preserve">
+    <value>గురించి (&amp;A)...</value>
+  </data>
+  <data name="linkLabelDoc.Text" xml:space="preserve">
+    <value>పత్రాలు</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OCR ఫైల్ ధృవీకరణ మరియు ప్రాసెసింగ్ సాధనం</value>
+  </data>
+</root>

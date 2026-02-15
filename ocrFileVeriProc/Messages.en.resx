@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutVerNo" xml:space="preserve">
+    <value>version {0}</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>About {0}</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Cancelled processing files.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Finished processing files.</value>
+  </data>
+  <data name="KeywordsRequired" xml:space="preserve">
+    <value>Specify keywords.</value>
+  </data>
+  <data name="NoImageFiles" xml:space="preserve">
+    <value>No image file was found in the folder.</value>
+  </data>
+  <data name="Result0Total" xml:space="preserve">
+    <value>Number of image files in folder: {0}</value>
+  </data>
+  <data name="Result1Verified" xml:space="preserve">
+    <value>Verified: {0}</value>
+  </data>
+  <data name="Result1Moved" xml:space="preserve">
+    <value>Moved: {0}</value>
+  </data>
+  <data name="Result1Deleted" xml:space="preserve">
+    <value>Deleted: {0}</value>
+  </data>
+  <data name="Result2Kept" xml:space="preserve">
+    <value>Kept: {0}</value>
+  </data>
+  <data name="Result3Error" xml:space="preserve">
+    <value>Error: {0}</value>
+  </data>
+  <data name="Result4Time" xml:space="preserve">
+    <value>Total processing time (sec): {0}</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Unexpected Error: {0}</value>
+  </data>
+  <data name="IniErrorTitle" xml:space="preserve">
+    <value>Setting file error</value>
+  </data>
+  <data name="IniErrorMsg" xml:space="preserve">
+    <value>The following error(s) occurred while loading ocr_params.ini. Default setting will be applied.</value>
+  </data>
+  <data name="FolderNotExistsImg" xml:space="preserve">
+    <value>Folder does not exist. Please specify the folder path for image files first.</value>
+  </data>
+  <data name="FolderNotExistsDst" xml:space="preserve">
+    <value>Folder does not exist. Please specify the folder path for destination first.</value>
+  </data>
+  <data name="ArrowUp" xml:space="preserve">
+    <value>↑</value>
+  </data>
+  <data name="ArrowDn" xml:space="preserve">
+    <value>↓</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="BothFoldersAreSame" xml:space="preserve">
+    <value>Image folder and Destination folder should not be the same.</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Processing: {0} / {1}</value>
+  </data>
+</root>

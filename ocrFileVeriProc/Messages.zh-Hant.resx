@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutVerNo" xml:space="preserve">
+    <value>版本 {0}</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>關於 {0}</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>已取消檔案處理。</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>錯誤</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>檔案處理已完成。</value>
+  </data>
+  <data name="KeywordsRequired" xml:space="preserve">
+    <value>請輸入關鍵字。</value>
+  </data>
+  <data name="NoImageFiles" xml:space="preserve">
+    <value>資料夾中未找到任何影像檔案。</value>
+  </data>
+  <data name="Result0Total" xml:space="preserve">
+    <value>資料夾中的影像檔案數量：{0}</value>
+  </data>
+  <data name="Result1Verified" xml:space="preserve">
+    <value>已驗證：{0}</value>
+  </data>
+  <data name="Result1Moved" xml:space="preserve">
+    <value>已移動：{0}</value>
+  </data>
+  <data name="Result1Deleted" xml:space="preserve">
+    <value>已刪除：{0}</value>
+  </data>
+  <data name="Result2Kept" xml:space="preserve">
+    <value>已保留：{0}</value>
+  </data>
+  <data name="Result3Error" xml:space="preserve">
+    <value>錯誤：{0}</value>
+  </data>
+  <data name="Result4Time" xml:space="preserve">
+    <value>總處理時間（秒）：{0}</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>未預期的錯誤：{0}</value>
+  </data>
+  <data name="IniErrorTitle" xml:space="preserve">
+    <value>設定檔錯誤</value>
+  </data>
+  <data name="IniErrorMsg" xml:space="preserve">
+    <value>載入 ocr_params.ini 時發生以下錯誤。將套用預設設定。</value>
+  </data>
+  <data name="FolderNotExistsImg" xml:space="preserve">
+    <value>資料夾不存在。請先指定影像檔案的資料夾路徑。</value>
+  </data>
+  <data name="FolderNotExistsDst" xml:space="preserve">
+    <value>資料夾不存在。請先指定目的地資料夾路徑。</value>
+  </data>
+  <data name="ArrowUp" xml:space="preserve">
+    <value>↑</value>
+  </data>
+  <data name="ArrowDn" xml:space="preserve">
+    <value>↓</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>或</value>
+  </data>
+  <data name="BothFoldersAreSame" xml:space="preserve">
+    <value>影像資料夾與目的地資料夾不可相同。</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>處理中：{0} / {1}</value>
+  </data>
+</root>

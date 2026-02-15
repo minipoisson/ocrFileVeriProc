@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutVerNo" xml:space="preserve">
+    <value>버전 {0}</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>{0} 정보</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>파일 처리가 취소되었습니다.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>오류</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>파일 처리가 완료되었습니다.</value>
+  </data>
+  <data name="KeywordsRequired" xml:space="preserve">
+    <value>키워드를 지정하세요.</value>
+  </data>
+  <data name="NoImageFiles" xml:space="preserve">
+    <value>폴더에서 이미지 파일을 찾을 수 없습니다.</value>
+  </data>
+  <data name="Result0Total" xml:space="preserve">
+    <value>폴더 내 이미지 파일 수: {0}</value>
+  </data>
+  <data name="Result1Verified" xml:space="preserve">
+    <value>검증됨: {0}</value>
+  </data>
+  <data name="Result1Moved" xml:space="preserve">
+    <value>이동됨: {0}</value>
+  </data>
+  <data name="Result1Deleted" xml:space="preserve">
+    <value>삭제됨: {0}</value>
+  </data>
+  <data name="Result2Kept" xml:space="preserve">
+    <value>유지됨: {0}</value>
+  </data>
+  <data name="Result3Error" xml:space="preserve">
+    <value>오류: {0}</value>
+  </data>
+  <data name="Result4Time" xml:space="preserve">
+    <value>총 처리 시간 (초): {0}</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>예상치 못한 오류: {0}</value>
+  </data>
+  <data name="IniErrorTitle" xml:space="preserve">
+    <value>설정 파일 오류</value>
+  </data>
+  <data name="IniErrorMsg" xml:space="preserve">
+    <value>ocr_params.ini을(를) 로드하는 중 다음 오류가 발생했습니다. 기본 설정이 적용됩니다.</value>
+  </data>
+  <data name="FolderNotExistsImg" xml:space="preserve">
+    <value>폴더가 존재하지 않습니다. 먼저 이미지 파일용 폴더 경로를 지정하세요.</value>
+  </data>
+  <data name="FolderNotExistsDst" xml:space="preserve">
+    <value>폴더가 존재하지 않습니다. 먼저 이동 대상 폴더 경로를 지정하세요.</value>
+  </data>
+  <data name="ArrowUp" xml:space="preserve">
+    <value>↑</value>
+  </data>
+  <data name="ArrowDn" xml:space="preserve">
+    <value>↓</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>또는</value>
+  </data>
+  <data name="BothFoldersAreSame" xml:space="preserve">
+    <value>이미지 폴더와 이동 대상 폴더는 같을 수 없습니다.</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>처리 중: {0} / {1}</value>
+  </data>
+</root>

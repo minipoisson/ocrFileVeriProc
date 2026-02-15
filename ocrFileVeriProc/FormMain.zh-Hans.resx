@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+  <data name="lblKeywords.Text" xml:space="preserve">
+    <value>关键词</value>
+  </data>
+  <data name="btnAnd.Text" xml:space="preserve">
+    <value>← 和 →</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>开始处理 (&amp;S)</value>
+  </data>
+  <data name="btnOpenImg.Text" xml:space="preserve">
+    <value>打开图像文件夹 (&amp;I)</value>
+  </data>
+  <data name="btnOpenDst.Text" xml:space="preserve">
+    <value>打开目标文件夹</value>
+  </data>
+  <data name="lblProcMode.Text" xml:space="preserve">
+    <value>处理模式</value>
+  </data>
+  <data name="cmbProcMode.Items" xml:space="preserve">
+    <value>验证包含关键词的文件（保留）</value>
+  </data>
+  <data name="cmbProcMode.Items1" xml:space="preserve">
+    <value>移动包含关键词的文件</value>
+  </data>
+  <data name="cmbProcMode.Items2" xml:space="preserve">
+    <value>删除包含关键词的文件</value>
+  </data>
+  <data name="cmbProcMode.Items3" xml:space="preserve">
+    <value>验证不包含关键词的文件（保留）</value>
+  </data>
+  <data name="cmbProcMode.Items4" xml:space="preserve">
+    <value>移动不包含关键词的文件</value>
+  </data>
+  <data name="cmbProcMode.Items5" xml:space="preserve">
+    <value>删除不包含关键词的文件</value>
+  </data>
+  <data name="lblFolderPathImg.Text" xml:space="preserve">
+    <value>图像文件夹路径</value>
+  </data>
+  <data name="lblFolderPathDst.Text" xml:space="preserve">
+    <value>目标文件夹路径</value>
+  </data>
+  <data name="btnBrowseImg.Text" xml:space="preserve">
+    <value>浏览 (&amp;B)...</value>
+  </data>
+  <data name="btnBrowseDst.Text" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="lblLang.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="lblResults.Text" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="cmbBoxLang.Items" xml:space="preserve">
+    <value>系统设置</value>
+  </data>
+  <data name="btnAbout.Text" xml:space="preserve">
+    <value>关于 (&amp;A)...</value>
+  </data>
+  <data name="linkLabelDoc.Text" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OCR 文件验证与处理工具</value>
+  </data>
+</root>

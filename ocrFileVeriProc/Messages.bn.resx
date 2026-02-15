@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutVerNo" xml:space="preserve">
+    <value>সংস্করণ {0}</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>{0} সম্পর্কে</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>ফাইল প্রক্রিয়াকরণ বাতিল করা হয়েছে।</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>ত্রুটি</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>ফাইল প্রক্রিয়াকরণ সম্পন্ন হয়েছে।</value>
+  </data>
+  <data name="KeywordsRequired" xml:space="preserve">
+    <value>অনুগ্রহ করে কীওয়ার্ড নির্ধারণ করুন।</value>
+  </data>
+  <data name="NoImageFiles" xml:space="preserve">
+    <value>ফোল্ডারে কোনো ইমেজ ফাইল পাওয়া যায়নি।</value>
+  </data>
+  <data name="Result0Total" xml:space="preserve">
+    <value>ফোল্ডারে ইমেজ ফাইলের সংখ্যা: {0}</value>
+  </data>
+  <data name="Result1Verified" xml:space="preserve">
+    <value>যাচাই করা হয়েছে: {0}</value>
+  </data>
+  <data name="Result1Moved" xml:space="preserve">
+    <value>স্থানান্তরিত হয়েছে: {0}</value>
+  </data>
+  <data name="Result1Deleted" xml:space="preserve">
+    <value>মুছে ফেলা হয়েছে: {0}</value>
+  </data>
+  <data name="Result2Kept" xml:space="preserve">
+    <value>রাখা হয়েছে: {0}</value>
+  </data>
+  <data name="Result3Error" xml:space="preserve">
+    <value>ত্রুটি: {0}</value>
+  </data>
+  <data name="Result4Time" xml:space="preserve">
+    <value>মোট প্রক্রিয়াকরণের সময় (সেকেন্ড): {0}</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>অপ্রত্যাশিত ত্রুটি: {0}</value>
+  </data>
+  <data name="IniErrorTitle" xml:space="preserve">
+    <value>সেটিং ফাইল ত্রুটি</value>
+  </data>
+  <data name="IniErrorMsg" xml:space="preserve">
+    <value>ocr_params.ini লোড করার সময় নিম্নলিখিত ত্রুটি(গুলি) ঘটেছে। ডিফল্ট সেটিং প্রয়োগ করা হবে।</value>
+  </data>
+  <data name="FolderNotExistsImg" xml:space="preserve">
+    <value>ফোল্ডারটি বিদ্যমান নয়। অনুগ্রহ করে প্রথমে ইমেজ ফাইলের জন্য ফোল্ডার পথ নির্ধারণ করুন।</value>
+  </data>
+  <data name="FolderNotExistsDst" xml:space="preserve">
+    <value>ফোল্ডারটি বিদ্যমান নয়। অনুগ্রহ করে প্রথমে গন্তব্য ফোল্ডার পথ নির্ধারণ করুন।</value>
+  </data>
+  <data name="ArrowUp" xml:space="preserve">
+    <value>↑</value>
+  </data>
+  <data name="ArrowDn" xml:space="preserve">
+    <value>↓</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>অথবা</value>
+  </data>
+  <data name="BothFoldersAreSame" xml:space="preserve">
+    <value>ইমেজ ফোল্ডার এবং গন্তব্য ফোল্ডার এক হওয়া উচিত নয়।</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>প্রক্রিয়াকরণ চলছে: {0} / {1}</value>
+  </data>
+</root>

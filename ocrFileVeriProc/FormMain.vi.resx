@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+  <data name="lblKeywords.Text" xml:space="preserve">
+    <value>từ khóa</value>
+  </data>
+  <data name="btnAnd.Text" xml:space="preserve">
+    <value>← VÀ →</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>Bắt đầu xử lý (&amp;S)</value>
+  </data>
+  <data name="btnOpenImg.Text" xml:space="preserve">
+    <value>Mở thư mục ảnh (&amp;I)</value>
+  </data>
+  <data name="btnOpenDst.Text" xml:space="preserve">
+    <value>Mở thư mục đích</value>
+  </data>
+  <data name="lblProcMode.Text" xml:space="preserve">
+    <value>chế độ xử lý</value>
+  </data>
+  <data name="cmbProcMode.Items" xml:space="preserve">
+    <value>kiểm tra (giữ lại) tệp có từ khóa</value>
+  </data>
+  <data name="cmbProcMode.Items1" xml:space="preserve">
+    <value>di chuyển tệp có từ khóa</value>
+  </data>
+  <data name="cmbProcMode.Items2" xml:space="preserve">
+    <value>xóa tệp có từ khóa</value>
+  </data>
+  <data name="cmbProcMode.Items3" xml:space="preserve">
+    <value>kiểm tra (giữ lại) tệp không có từ khóa</value>
+  </data>
+  <data name="cmbProcMode.Items4" xml:space="preserve">
+    <value>di chuyển tệp không có từ khóa</value>
+  </data>
+  <data name="cmbProcMode.Items5" xml:space="preserve">
+    <value>xóa tệp không có từ khóa</value>
+  </data>
+  <data name="lblFolderPathImg.Text" xml:space="preserve">
+    <value>đường dẫn thư mục ảnh</value>
+  </data>
+  <data name="lblFolderPathDst.Text" xml:space="preserve">
+    <value>đường dẫn thư mục đích</value>
+  </data>
+  <data name="btnBrowseImg.Text" xml:space="preserve">
+    <value>Duyệt (&amp;B)...</value>
+  </data>
+  <data name="btnBrowseDst.Text" xml:space="preserve">
+    <value>Duyệt...</value>
+  </data>
+  <data name="lblLang.Text" xml:space="preserve">
+    <value>ngôn ngữ</value>
+  </data>
+  <data name="lblResults.Text" xml:space="preserve">
+    <value>Kết quả</value>
+  </data>
+  <data name="cmbBoxLang.Items" xml:space="preserve">
+    <value>Cài đặt hệ thống</value>
+  </data>
+  <data name="btnAbout.Text" xml:space="preserve">
+    <value>Giới thiệu (&amp;A)...</value>
+  </data>
+  <data name="linkLabelDoc.Text" xml:space="preserve">
+    <value>tài liệu</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Công cụ kiểm tra &amp; xử lý tệp OCR</value>
+  </data>
+</root>

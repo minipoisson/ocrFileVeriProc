@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutVerNo" xml:space="preserve">
+    <value>bersyon {0}</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>Tungkol sa {0}</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Kanselado.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Kamalian</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Tapos na ang pagproseso ng mga file.</value>
+  </data>
+  <data name="KeywordsRequired" xml:space="preserve">
+    <value>Ilagay ang tekstong isasama.</value>
+  </data>
+  <data name="NoImageFiles" xml:space="preserve">
+    <value>Walang nahanap na image file sa folder.</value>
+  </data>
+  <data name="Result1Deleted" xml:space="preserve">
+    <value>Natanggal: {1}</value>
+  </data>
+  <data name="Result3Error" xml:space="preserve">
+    <value>  Kamalian: {3}</value>
+  </data>
+  <data name="Result2Kept" xml:space="preserve">
+    <value>Naiwan: {2}</value>
+  </data>
+  <data name="Result0Total" xml:space="preserve">
+    <value>Bilang ng image file sa folder: {0}</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Hindi inaasahang kamalian</value>
+  </data>
+  <data name="Result4Time" xml:space="preserve">
+    <value>Kabuuang oras ng pagproseso (segundo): {4}</value>
+  </data>
+  <data name="iniErrorTitle" xml:space="preserve">
+    <value>Kamalian sa file ng setting</value>
+  </data>
+  <data name="iniErrorMsg" xml:space="preserve">
+    <value>Nagkaroon ng mga sumusunod na kamalian habang naglo-load ng ocr_params.ini. Ang default na setting ay gagamitin.</value>
+  </data>
+  <data name="FolderNotExistsImg" xml:space="preserve">
+    <value>Walang folder. Pakitukoy muna ang path ng folder para sa mga image file.</value>
+  </data>
+  <data name="FolderNotExistsDst" xml:space="preserve">
+    <value>Walang folder. Pakitukoy muna ang path ng folder ng destinasyon.</value>
+  </data>
+  <data name="arrowUp" xml:space="preserve">
+    <value>↑</value>
+  </data>
+  <data name="arrowDn" xml:space="preserve">
+    <value>↓</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="Result1Moved" xml:space="preserve">
+    <value>Nailipat: {1}</value>
+  </data>
+  <data name="Result1Verified" xml:space="preserve">
+    <value>Napatunayan: {0}</value>
+  </data>
+</root>

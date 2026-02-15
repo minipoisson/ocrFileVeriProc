@@ -1,0 +1,26 @@
+SOFTWARE LICENSE AGREEMENT
+
+This agreement is made between the user of the OCR File Verification & Deletion Tool (hereinafter referred to as "the Software") and the copyright holder, [Your Name or Organization] (hereinafter referred to as "the Copyright Holder").
+
+Article 1 (Grant of License)
+
+The Copyright Holder grants [Permitted User's Name or Organization] a non-exclusive, non-commercial license to use the Software.
+
+The license to use the Software is conditional upon the user's agreement to and compliance with the terms set forth in this agreement.
+
+Article 2 (Prohibited Actions)
+The user of the Software is prohibited from performing the following actions without the prior written consent of the Copyright Holder:
+
+- Copying, distributing, transmitting, transferring, lending, or otherwise providing the Software to any third party.
+- Reverse engineering, disassembling, decompiling, or otherwise analyzing the Software.
+- Using the Software for commercial purposes.
+- Modifying all or part of the Software or creating derivative works based on the Software.
+
+Article 3 (Disclaimer)
+The Copyright Holder makes no warranties regarding the operation, quality, performance, accuracy, or fitness for any particular purpose of the Software. The Copyright Holder shall not be liable for any direct or indirect damages arising from the use of the Software.
+
+Article 4 (Termination)
+This agreement shall be terminated immediately at the discretion of the Copyright Holder if the user violates any of its terms.
+
+Article 5 (Copyright)
+The copyright of the Software belongs to the Copyright Holder.

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutVerNo" xml:space="preserve">
+    <value>versión {0}</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>Acerca de {0}</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Procesamiento de archivos cancelado.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Procesamiento de archivos finalizado.</value>
+  </data>
+  <data name="KeywordsRequired" xml:space="preserve">
+    <value>Especifique palabras clave.</value>
+  </data>
+  <data name="NoImageFiles" xml:space="preserve">
+    <value>No se encontraron archivos de imagen en la carpeta.</value>
+  </data>
+  <data name="Result0Total" xml:space="preserve">
+    <value>Número de archivos de imagen en la carpeta: {0}</value>
+  </data>
+  <data name="Result1Verified" xml:space="preserve">
+    <value>Verificados: {0}</value>
+  </data>
+  <data name="Result1Moved" xml:space="preserve">
+    <value>Movidos: {0}</value>
+  </data>
+  <data name="Result1Deleted" xml:space="preserve">
+    <value>Eliminados: {0}</value>
+  </data>
+  <data name="Result2Kept" xml:space="preserve">
+    <value>Conservados: {0}</value>
+  </data>
+  <data name="Result3Error" xml:space="preserve">
+    <value>Error: {0}</value>
+  </data>
+  <data name="Result4Time" xml:space="preserve">
+    <value>Tiempo total de procesamiento (segundos): {0}</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Error inesperado: {0}</value>
+  </data>
+  <data name="IniErrorTitle" xml:space="preserve">
+    <value>Error en el archivo de configuración</value>
+  </data>
+  <data name="IniErrorMsg" xml:space="preserve">
+    <value>Se produjeron los siguientes errores al cargar ocr_params.ini. Se aplicará la configuración predeterminada.</value>
+  </data>
+  <data name="FolderNotExistsImg" xml:space="preserve">
+    <value>La carpeta no existe. Por favor, especifique primero la ruta de la carpeta de imágenes.</value>
+  </data>
+  <data name="FolderNotExistsDst" xml:space="preserve">
+    <value>La carpeta no existe. Por favor, especifique primero la ruta de la carpeta de destino.</value>
+  </data>
+  <data name="ArrowUp" xml:space="preserve">
+    <value>↑</value>
+  </data>
+  <data name="ArrowDn" xml:space="preserve">
+    <value>↓</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="BothFoldersAreSame" xml:space="preserve">
+    <value>La carpeta de imágenes y la carpeta de destino no deben ser iguales.</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Procesando: {0} / {1}</value>
+  </data>
+</root>
